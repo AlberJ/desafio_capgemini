@@ -1,5 +1,7 @@
-package com.capgemini.banco.core;
+package com.capgemini.banco.core.services;
 
+import com.capgemini.banco.core.models.Cliente;
+import com.capgemini.banco.core.repositories.ClienteRepository;
 import com.capgemini.banco.settings.exceptions.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

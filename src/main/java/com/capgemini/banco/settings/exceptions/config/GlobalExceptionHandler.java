@@ -1,5 +1,7 @@
-package com.capgemini.banco.settings.exceptions;
+package com.capgemini.banco.settings.exceptions.config;
 
+import com.capgemini.banco.settings.exceptions.BadRequestException;
+import com.capgemini.banco.settings.exceptions.NotFoundException;
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

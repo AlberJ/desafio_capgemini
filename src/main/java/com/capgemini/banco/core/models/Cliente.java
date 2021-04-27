@@ -1,4 +1,4 @@
-package com.capgemini.banco.core;
+package com.capgemini.banco.core.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

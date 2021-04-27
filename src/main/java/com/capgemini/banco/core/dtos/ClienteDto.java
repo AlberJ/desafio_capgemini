@@ -1,5 +1,6 @@
-package com.capgemini.banco.core;
+package com.capgemini.banco.core.dtos;
 
+import com.capgemini.banco.core.models.Cliente;
 import lombok.Builder;
 import lombok.Data;
 import org.hibernate.validator.constraints.br.CPF;

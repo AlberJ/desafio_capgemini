@@ -1,5 +1,7 @@
-package com.capgemini.banco.core;
+package com.capgemini.banco.core.controllers;
 
+import com.capgemini.banco.core.dtos.ClienteDto;
+import com.capgemini.banco.core.services.ClienteService;
 import com.capgemini.banco.settings.exceptions.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

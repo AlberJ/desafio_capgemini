@@ -1,4 +1,4 @@
-package com.capgemini.banco.settings.exceptions;
+package com.capgemini.banco.settings.exceptions.config;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
