@@ -26,15 +26,14 @@ public class ContaCorrente {
     @Column(name = "cliente_id")
     private Long id;
 
-    private Double saldo;
+    private Double saldo = 0.0;
 
     @OneToOne
     @MapsId
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;
 
-    public ContaCorrente(Double saldo, Cliente cliente) {
-        this.saldo = saldo;
+    public ContaCorrente(Cliente cliente) {
         this.cliente = cliente;
     }
 
