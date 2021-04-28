@@ -23,7 +23,7 @@ public class ClienteController {
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(code = HttpStatus.CREATED)
     @ResponseBody
-    public void registerUser(@RequestBody ClienteDto clienteDto) throws BadRequestException {
-        service.register(clienteDto.parseToCliente());
+    public void registroCliente(@RequestBody ClienteDto clienteDto) throws BadRequestException {
+        service.registro(clienteDto.parseToCliente());
     }
 }
